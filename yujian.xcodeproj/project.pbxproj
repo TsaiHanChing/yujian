@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		353DA8E8228AD33B0058CA6C /* sharpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353DA8E7228AD33B0058CA6C /* sharpImageView.swift */; };
 		59DB4023227940DE0089E363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DB4022227940DE0089E363 /* AppDelegate.swift */; };
 		59DB4025227940DE0089E363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DB4024227940DE0089E363 /* ViewController.swift */; };
 		59DB4028227940DE0089E363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DB4026227940DE0089E363 /* Main.storyboard */; };
 		59DB402A227940E00089E363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DB4029227940E00089E363 /* Assets.xcassets */; };
 		59DB402D227940E00089E363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DB402B227940E00089E363 /* LaunchScreen.storyboard */; };
+		59DB403D227956090089E363 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59DB403C227956090089E363 /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		353DA8E7228AD33B0058CA6C /* sharpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharpImageView.swift; sourceTree = "<group>"; };
 		59DB401F227940DE0089E363 /* yujian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yujian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DB4022227940DE0089E363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59DB4024227940DE0089E363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		59DB4029227940E00089E363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59DB402C227940E00089E363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59DB402E227940E00089E363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59DB403C227956090089E363 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		59DB4021227940DE0089E363 /* yujian */ = {
 			isa = PBXGroup;
 			children = (
+				59DB403C227956090089E363 /* music.mp3 */,
 				59DB4022227940DE0089E363 /* AppDelegate.swift */,
 				59DB4024227940DE0089E363 /* ViewController.swift */,
 				59DB4026227940DE0089E363 /* Main.storyboard */,
+				353DA8E7228AD33B0058CA6C /* sharpImageView.swift */,
 				59DB4029227940E00089E363 /* Assets.xcassets */,
 				59DB402B227940E00089E363 /* LaunchScreen.storyboard */,
 				59DB402E227940E00089E363 /* Info.plist */,
@@ -121,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DB403D227956090089E363 /* music.mp3 in Resources */,
 				59DB402D227940E00089E363 /* LaunchScreen.storyboard in Resources */,
 				59DB402A227940E00089E363 /* Assets.xcassets in Resources */,
 				59DB4028227940DE0089E363 /* Main.storyboard in Resources */,
@@ -135,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DB4025227940DE0089E363 /* ViewController.swift in Sources */,
+				353DA8E8228AD33B0058CA6C /* sharpImageView.swift in Sources */,
 				59DB4023227940DE0089E363 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
